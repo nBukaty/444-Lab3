@@ -1,0 +1,21 @@
+body{
+  background-color: gray;
+  background-image: url(../images/headshot2.png);
+  background-blend-mode: color-burn;
+  color: white;
+  font-family: sans-serif;;
+}
+div.picture{
+  border: 20px solid white;
+  display: flex;
+  float: left;
+}
+img{
+  height: 200px;
+}
+h1:hover{
+  color: red;
+}
+a{
+  color: 	#F8F8FF;
+}
