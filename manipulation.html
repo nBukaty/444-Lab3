@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/manipulation.css">
+    <script type="text/javascript" src="jsFiles/manipulation.js"></script>
+    <title>CSS Manipulation</title>
+  </head>
+  <body>
+    <p id="changeMe">READ THIS TEXT, It's good for you</p><br>
+    <form id ="change" >
+      Colors must be a number between 0-255<br>
+      Border Size(in number of pixels):<br>
+      <input type="text" id="bSize" value = "10"><br>
+      Border Color:<br>
+      Red:<input type="text" id="brColor" value="0">Green:<input type="text" id="bgColor" value="0">Blue:<input type="text" id="bbColor" value="255"><br>
+      Text Color:<br>
+      Red:<input type="text" id="trColor"value="255">Green:<input type="text" id="tgColor"value="0">Blue:<input type="text" id="tbColor"value="0"><br>
+      <input type="button" value="Submit" onclick="changeParagraph()">
+    </form>
+  </body>
+</html>
